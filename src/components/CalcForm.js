@@ -127,8 +127,7 @@ const CalcForm = () => {
         setTotalAbs({
             high: high,
             target: targetNum,
-            low: low,
-            slide: true
+            low: low
         })
     }
 
