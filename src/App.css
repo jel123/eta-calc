@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+button:focus,
+button:active textarea:active,
+textarea:focus,
+input:focus,
+input:active,
+textarea,
+input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+body,
+html {
+  background-color: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+.container {
+  text-align: left;
+  color: #6d6c6c;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.container h1 {
+  margin: 0;
+  padding: 9px;
+  line-height: 1;
+}
+.container .eta-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 2px solid #999;
+}
+.container .eta-header .nav-list {
+  display: flex;
+  align-self: center;
+}
+.container .eta-header .nav-list ul.calc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container .eta-header .nav-list ul.calc-list > li {
+  display: inline;
+  margin-right: 20px;
+}
+.container .eta-header .nav-list ul.calc-list > li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.container .eta-header .nav-list ul.calc-list > li a:hover {
+  color: #b45959;
+  transition: 0.2s ease;
+}
+.container .eta-header .nav-list ul.calc-list > li:last-child {
+  margin-right: 0;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formContainer h1 {
+  color: #b45959;
+}
+.formContainer h1 svg {
+  margin-left: 15px;
+  color: #b45959;
+}
+.formContainer .add-form {
+  background-color: white;
+  border-top: 10px solid #b45959;
+  padding: 20px;
+  color: black;
+  min-width: 500px;
+}
+.formContainer .add-form .form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.formContainer .add-form .form-control label {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.formContainer .add-form .form-control label span {
+  color: #b45959;
+}
+.formContainer .add-form .form-control input {
+  font-size: 1.5rem;
+  padding: 0 15px;
+  border: 2px solid #999;
+  height: 50px;
+  outline: none;
+}
+.formContainer .add-form .form-control input:focus {
+  border-color: #b45959;
+}
+.formContainer .btn {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.formContainer .btn:hover {
+  background-color: #b45959;
+  transition: 0.2s ease;
+}
+.formContainer .btn:hover {
+  color: white;
+  border-color: #b45959;
+  cursor: pointer;
+}
+.formContainer .list-wrapper {
+  display: flex;
+  min-width: 500px;
+  margin-top: 20px;
+  border-top: 10px solid #b45959;
+}
+.formContainer .list-wrapper .hour-min,
+.formContainer .list-wrapper .decimal {
+  position: relative;
+  width: 270px;
+  color: white;
+  padding: 20px;
+}
+.formContainer .list-wrapper .hour-min .btn,
+.formContainer .list-wrapper .decimal .btn {
+  padding: 9px;
+  width: 100%;
+  border: none;
+  margin-bottom: 15px;
+  background-color: white;
+}
+.formContainer .list-wrapper .hour-min .btn:hover,
+.formContainer .list-wrapper .decimal .btn:hover {
+  background: black;
+  color: white;
+}
+.formContainer .list-wrapper .hour-min {
+  background-color: #b45959;
+  margin-left: auto;
+}
+.formContainer .list-wrapper .decimal {
+  background-color: #4d9a8c;
+}
+.formContainer .list-wrapper textarea {
+  width: 100%;
+  height: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  transition: height 0.3s ease-out;
+  resize: none;
+}
+.formContainer .list-wrapper textarea.showText {
+  height: 300px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  transition: height 0.3s ease-in;
+}
+.formContainer .list-wrapper ul {
+  list-style: none;
+  padding: 0 0 20px 0;
+}
+.formContainer .list-wrapper ul > li {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.formContainer .error-msg {
+  color: white;
+  background-color: #863434;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.formContainer svg {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=App.css.map */
